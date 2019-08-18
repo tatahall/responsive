@@ -13,6 +13,7 @@ h1, h3 {
   
   header {
     background-color: #ffffff;
+    position: fixed;
     width: 100%;
     border-bottom: 2px solid #cccccc;
     padding-bottom: -5;
@@ -238,3 +239,12 @@ h1, h3 {
     width: 60%;
     margin-left:35px;
   }
+ /* @media (max-width: 640px){
+the name logo should span width of the top of screen and be centered; the nav links should be below and centered; remaining content should be stacked and centered
+  }
+
+  @media (min width: 640 px and max width: 768 Px) {
+    content in same position with smaller view
+
+    @media (min width: 980px) {
+      header content should be same; footer same; content box is smaller}
